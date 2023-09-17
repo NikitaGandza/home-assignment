@@ -1,7 +1,7 @@
 # home-assignment
 
 Run Posgres container <br>
-Add main.py, Dockerfile, .env, requirements.txt to the same directory and use these commands to build and run ETL container:
+Add main.py, Dockerfile, .env, requirements.txt to the same directory. In your terminal to to directory with files and use these commands to build and run ETL container:
 
 docker build -t my-first-container . <br>
 docker run --net=host my-first-container
